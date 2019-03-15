@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app">NewApp</string>
+    <string name="title_activity_dash_board">dashBoardActivity</string>
+    <string name="title_activity_uon">UONActivity</string>
+
+    <string-array name="uon_courses">
+        <item name="course_one">Bachelor of Commerce</item>
+        <item name="course_one">Bachelor of Education</item>
+        <item name="course_one">Bachelor of IT</item>
+        <item name="course_one">Bachelor of Anthropology</item>
+        <item name="course_one">Bachelor of Law</item>
+
+    </string-array>
+    <string name="title_activity_jkuat">JkuatActivity</string>
+    <string-array name="jkuat_courses">
+        <item name="course_one">Bachelor of Arts</item>
+        <item name="course_one">Bachelor of Commerce</item>
+        <item name="course_one">Bachelor of Real Estate</item>
+        <item name="course_one">Bachelor of Mechanical Engineering</item>
+        <item name="course_one">Diploma in Clinical Medicine</item>
+    </string-array>
+
+    <string name="title_activity_moi">MoiActivity</string>
+    <string-array name="moi_uni_courses">
+        <item name="course_one">Bachelor of Science in Arts</item>
+        <item name="course_one">Bachelor of Medicine</item>
+        <item name="course_one">Bachelor of Accounting</item>
+        <item name="course_one">Bachelor of Acturial Science</item>
+        <item name="course_one">Bachelor of Psychology</item>
+        <item name="course_one">Bachelor of Commerce</item>
+
+    </string-array>
+</resources>

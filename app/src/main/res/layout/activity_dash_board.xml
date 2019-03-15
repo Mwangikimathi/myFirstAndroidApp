@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashBoardActivity">
+
+    <Button
+        android:id="@+id/JkuatButton"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="154dp"
+        android:text="JKUAT"
+        android:onClick="jkuat"
+        />
+
+    <Button
+        android:id="@+id/moiButton"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Moi University"
+        android:onClick="moi"
+        />
+
+    <Button
+        android:id="@+id/UonButton"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="151dp"
+        android:text="UON"
+        android:onClick="Uon"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@mipmap/them"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/sendsmsimageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="68dp"
+        app:srcCompat="@drawable/ic_message_black_24dp"
+        tools:ignore="RtlCompat,VectorDrawableCompat"
+        android:onClick="sms"
+        />
+
+    <ImageView
+        android:id="@+id/OpenMpesaimageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        app:srcCompat="@drawable/ic_sd_storage_black_24dp"
+        tools:ignore="RtlCompat,VectorDrawableCompat"
+        android:onClick="mpesa"
+
+        />
+
+</RelativeLayout>
